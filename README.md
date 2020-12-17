@@ -13,14 +13,16 @@ This app uses localStorage to store todo items
 
 ## Dependencies
 
+- React
 - Redux
 - React-redux
 - React-router-dom
 - React-router-tabs
 - uuid
+- babel-jest
 
 ## Dev Dependencies
-
+- Jest
 
 
 ### `npm start`

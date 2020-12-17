@@ -1,0 +1,66 @@
+.todo__card{
+  box-shadow: 3px 3px 15px 1px rgba(114, 114, 129, 0.5);
+  padding: 1.5rem;
+  max-width: 35rem;
+  background-color: aliceblue;
+  position:relative;
+}
+
+.todo__actions{
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right:1rem;
+  bottom: 0.5rem;
+}
+.todo__btn{
+  cursor:pointer;
+  border:none;
+  padding: 0.5rem 0.8rem;
+  color:#fff;
+  font-weight:600;
+  font-size: 0.85rem;
+  margin-left: 0.75rem;
+  border-radius:8px;
+  -webkit-border-radius:8px;
+  -moz-border-radius:8px;
+  -ms-border-radius:8px;
+  -o-border-radius:8px;
+}
+.todo__info{
+  width:100%;
+  display:flex;
+  align-items: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #666;
+}
+.todo_dates{
+  margin: 1rem 0 2rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #666;
+}
+.todo_dates * + * {
+  margin-top:0.5rem;
+}
+.checkbox{
+  height: 1.3rem;
+  width:1.3rem;
+  cursor:pointer;
+  margin-right: 0.8rem;
+}
+h2{
+  width: 90%;
+}
+.todo__btn:hover{
+  opacity: 0.8;
+}
+.edit_btn{
+  background: green;
+}
+.delete_btn{
+  background: red;
+}
+.restore_btn{
+  background:seagreen;
+}

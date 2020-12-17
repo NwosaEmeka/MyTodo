@@ -48,7 +48,7 @@ function TodoForm({ match, todos, submitAction, name }) {
           <p className="errMsg">{error}</p>
           :
           ""
-        };
+        }
         <div className="form__input">
           <label htmlFor="task">TASK:</label>
           <input

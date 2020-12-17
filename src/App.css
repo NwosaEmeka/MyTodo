@@ -4,7 +4,7 @@
   background-color: blue;
   position: sticky;
   top:0;
-  
+  z-index: 100;
 }
 .nav_items{
   max-width: 60rem;
@@ -15,6 +15,11 @@
   align-items: center;
   justify-content: space-between;
   position:relative;
+}
+@media (max-width:21em){
+  .nav_items{
+    padding: 1.5rem 0.1rem;
+  }
 }
 .nav-tab{
   color: #fff;
@@ -36,6 +41,7 @@
 .form__container{
   height: 100%;
   width: 100vw;
+  padding: 0.8rem;
 }
 
 .todo__container{
@@ -43,4 +49,11 @@
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   padding: 2rem;
   gap: 1.2rem;
+}
+
+@media (max-width: 18em){
+  .todo__container{
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  
+ }
 }

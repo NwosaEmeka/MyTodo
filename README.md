@@ -1,6 +1,7 @@
 # MyTodo
 
 A todo list app That allows user to perform the following operations
+Live page: [MyTodo](https://nwosa-todo.netlify.app/pending)
 
 - Add todo
 - Edit todo

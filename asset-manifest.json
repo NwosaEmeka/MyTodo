@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/NwosaEmeka/MyTodo/static/css/main.b9dea624.chunk.css",
+    "main.js": "/NwosaEmeka/MyTodo/static/js/main.8d90adec.chunk.js",
+    "main.js.map": "/NwosaEmeka/MyTodo/static/js/main.8d90adec.chunk.js.map",
+    "runtime-main.js": "/NwosaEmeka/MyTodo/static/js/runtime-main.d804fa8d.js",
+    "runtime-main.js.map": "/NwosaEmeka/MyTodo/static/js/runtime-main.d804fa8d.js.map",
+    "static/js/2.3dbb9033.chunk.js": "/NwosaEmeka/MyTodo/static/js/2.3dbb9033.chunk.js",
+    "static/js/2.3dbb9033.chunk.js.map": "/NwosaEmeka/MyTodo/static/js/2.3dbb9033.chunk.js.map",
+    "static/js/3.18b3b4d4.chunk.js": "/NwosaEmeka/MyTodo/static/js/3.18b3b4d4.chunk.js",
+    "static/js/3.18b3b4d4.chunk.js.map": "/NwosaEmeka/MyTodo/static/js/3.18b3b4d4.chunk.js.map",
+    "index.html": "/NwosaEmeka/MyTodo/index.html",
+    "static/css/main.b9dea624.chunk.css.map": "/NwosaEmeka/MyTodo/static/css/main.b9dea624.chunk.css.map",
+    "static/js/2.3dbb9033.chunk.js.LICENSE.txt": "/NwosaEmeka/MyTodo/static/js/2.3dbb9033.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d804fa8d.js",
+    "static/js/2.3dbb9033.chunk.js",
+    "static/css/main.b9dea624.chunk.css",
+    "static/js/main.8d90adec.chunk.js"
+  ]
+}

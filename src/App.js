@@ -26,7 +26,7 @@ const App = () => {
           <Route
             exact
             path="/"
-            render={() => <Redirect replace to="/pending" />}
+            component={PendingTodo}
           />
           <Route path="/pending" component={PendingTodo} />
           <Route path="/completed" component={CompletedTodo} />

@@ -39,7 +39,7 @@ function DisplayTodo({ id, item, due_date, completed_date, ...props }) {
 
         {props.delete ?
           <button className="todo__btn delete_btn" onClick={() => {
-            if (window.confirm("Add to trash can?")) {
+            if (window.confirm("This todo will be sent to thrash bin, do you want to continue?")) {
               props.deleteTodo(id)
             }
           }}>
@@ -56,7 +56,7 @@ function DisplayTodo({ id, item, due_date, completed_date, ...props }) {
         }
         {props.remove ?
           <button className="todo__btn delete_btn" onClick={() => {
-            if (window.confirm("Do want to delete this todo permanently?")) {
+            if (window.confirm("This todo will be permanently deleted, do you which to continue?")) {
               props.removeTodo(id)
             }
           }}>

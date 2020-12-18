@@ -66,8 +66,8 @@ describe("actions", () => {
 
 describe("actions", () => {
   it("should create action to update a todo item", () => {
-    const item = 'Get the internship';
-    const date = "2021-03-01T08:30";
+    const item = 'I will work hard';
+    const date = "2021-04-01T10:30";
     const id = uuidv4();
     const expectedAction = {
       type:types.UPDATE_TODO,

@@ -105,7 +105,7 @@ describe("reducers", () => {
 
 describe("reducers", () => {
   const id = uuidv4();
-  it("should handle delete todo", () => {
+  it("should handle restore todo", () => {
     expect(todoReducer(
       [
         {
@@ -139,7 +139,7 @@ describe("reducers", () => {
   const id = uuidv4();
   const item = "I will work hard";
   const date = "2021-04-01T10:30";
-  it("should handle delete todo", () => {
+  it("should handle update todo", () => {
     expect(todoReducer(
       [
         {
@@ -174,7 +174,7 @@ describe("reducers", () => {
 
 describe("reducers", () => {
   const id = uuidv4();
-  it("should handle delete todo", () => {
+  it("should handle delete todo permanently", () => {
     expect(todoReducer(
       [
         {
